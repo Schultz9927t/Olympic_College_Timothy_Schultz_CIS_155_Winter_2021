@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/*  Name: Timothy Schultz
+    Date: 1/22/2021
+*/
+
+h1 {
+    font-size: 50px;
+    color:hsl(0, 0%, 100%);
+    padding-left:50px;
+}
+
+h2 {
+    font-size: 30px;
+    color:hsl(0, 0%, 100%);
+    padding-left:50px;  /*M2L012: Pege element presentation demonstrated here. Padding creates blank space to improve appearance*/
+}
+
+h3 {
+    padding-left:50px;
+    text-decoration:underline;
+}
+
+body {
+    background-color: rgb(68, 68, 68); /*M2L012: Page element presentation demonstrated here. Empty space is filled with color*/
+    background-color: hsl(0, 0%, 25%);          /*M2L014- Progressive enhancement is used here to allow compatibility with older browsers that don't support hsl*/
+    color:hsl(0, 0%, 100%);    
+}
+
+p {
+    font-size: 20px;            /*M2L03: Style precedence demonstrated here. More specific selector have precedence*/
+    padding-left:50px;
+}
+
+aside {
+    font-size: 30px;   /*M2L013: Textual element presentation demonstrated here. Font size is increased.*/
+    color:hsl(0, 0%, 100%);
+    padding-left:50px;
+}
+
+nav {
+    font-size:30px;
+    color:hsl(0, 0%, 100%);  /*M2L013: Textual element presentation demonstrated here. Text color is changed*/
+    text-align:left;
+    padding-left:15px;
+}
+
+ul {
+    list-style-type:none;
+}
+
+article {
+    font-style:italic; /*M2L03: Style inheritance demonstrated here. Descendents of the article element are affected*/
+    font-size:20px;
+}
+
+article p {
+    color:rgb(196, 196, 196);  /*M2L05: Contextual selector demonstrated here. Paragraphs within article elements are assigned a color*/
+}
+
+nav, aside {
+    font-weight:900;  /*M2L05: Contextual selector deonstrated here. Multiple elements are affected*/
+}
+
+#Welcome {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;  /*M2L06: id attribute demonstrated here. elements that fall under the #id are affected*/
+}
+
+p.main {
+    font-family:sans-serif;   /*M2L06: class selector demonstrated here. paragraphs under the class are affected*/  /*M2L07: Element.class demonstrated here. Element under the specified class are affected*/
+}
+
+a[href] {
+    color:hsl(212, 100%, 50%);    /*M2L015: Demonstrated the use of color. Links are set to the color*/   
+}
+
+nav > ul > li > a:hover {    
+    color:rgb(0, 0, 0)
+}                  /*M2L011: Psuedo class demonstrated here. Mouse hover over the link changes the color.*/
+
+a:hover {
+    color:rgb(0, 0, 0);
+}
+
+p::first-letter {
+    text-transform:uppercase;
+    font-family:'Times New Roman', Times, serif;
+    font-size:40px;
+}                  /*M2L011: Psuedo element demonstrated here. First letter in each paragraph is in uppercase*/
+
+footer {
+    font-size:17px;
+    padding-left:50px;
+    padding-top:30px;
+}
+
+ol {
+    font size:35px;
+    padding-left:75px;
+}
+
+blockquote {
+    padding-left:10px;
+}
+#versions {
+    list-style-type:disc;
+    padding-left:70px;
+}
