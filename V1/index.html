@@ -6,77 +6,54 @@
      Date: 1/22/2021
 -->
 
-<!--M1L06: Basic html tags are demonstrated throughout the document-->
-
 <head>
     <title>Music Production 101</title>
     <meta charset="utf-8"/>
     <meta name="description" content="Music Production for Beginners">
     <meta name="keywords" content="music, production, beginners">
     <meta name="author" content="Timothy Schultz">
-    <link rel="stylesheet" href="styles.css">  <!--M1L08: Style sheet is linked here--><!--M2L04: External style demonstrated here-->
-    <style>   
-    body {  
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    }   
-    </style>     <!--M2L04: Embedded style demonstrated here. Font family is set for the body.--> 
+    <link rel="stylesheet" href="reset.css">  <!--M3LO1 Demonstrate the use of a CSS reset style sheet-->
+    <link rel="stylesheet" href="styles.css">    
 </head>
             
 <body>
-    <h1 id="Top">Music Production &#8226; <small>101</small></h1>   <!--M1L010: Special character bullet is demonstrated--><!--M2L06: id selector demonstrated here-->
-            
-    <nav>  <!--M1L012: Navigation links demonstrated here-->
-        <ul id="nav">
-            <li><a href="index.html">Home</a></li>   
-            <li><a href="about.html">About</a></li>
-        </ul>
-    </nav>
 
-    <img src="Website_Banner.png" alt="Website banner collage">  <!--M1L09:Inline image used here. Image is comprised of free images from online that have been combined to create the collage that you see. Images have been altered to deliver what you see-->
-
-    <h1 id="Welcome">Welcome!</h1>   <!--M2L06: id selector demonstrated here-->
     
-    <p>   
+        <h1 id="Left">Music Production &#8226; <small>101</small></h1>   
+            
+         <nav id="Right">  
+            <ul id="nav">
+                <li><a href="index.html">Home</a></li>   
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    
+
+    <img src="Website_Banner.png" alt="Website banner collage" width="100%" usemap="#Map"/> 
+    
+        <map name="Map">    <!--M4LO7 Demonstrate the use of image maps, including determining x and y values-->
+            <area shape="rect" coords="650,200,1300,400" href="about.html" alt="About"/>
+        </map>
+
+    <h2 id="Welcome">Welcome to Music Production 101!</h2>   
+    <p id="Intro">   
         Are you interested in Music Production? If so, you are in the right place.<br> 
         This site is designed to prepare you on your musical journey. If you would<br>  
-        like more info, please see <a href="about.html">About</a>. <!--M1L013: Site navigation link demonstrated here-->
+        like more info, please see <a href="about.html">About</a>. 
     </p>
 
-    <article>
-        <h2>Creativity has no limits!</h2>
-            <p class="main">   <!--M2L06: Class selector demonstrated here-->
-                There is so much you can do with music. Music is a very <br> 
-                beautiful form of expression. It tunes in to our emotions<br> 
-                and allows us to show how we feel. Paired with lyrics,<br> 
-                music is a story that you can tell. A canvas of sound.<br> 
-                The first step to getting there is first knowing how to<br>  
-                make music happen. This site will help you get there.<br> 
-            </p>
-    </article> 
-                                    
-    <aside><blockquote>- TELL YOUR STORY -</blockquote></aside>
-
-                                               
-    <h3 style="font-weight:500;">Here are some things you can expect from this site:</h3>  <!--M2L04: Inline style demonstrated here. Font weight is set-->
-     
-    <!--M1L07: The use of ordered lists is demonstrated below-->
-    <ol>
-        <li>Hardware needs</li>
-        <li>Software needs</li>
-        <li>Techniques & Methods</li>
-    </ol>
-                                         
-    <aside>See this photo for a cool picture of a   <!--M1L013: External link demonstrated here-->
-        home studio:<a href="https://i.pinimg.com/originals/49/53/2c/49532c163c660a5628d246e24057f1b1.jpg">Photo</a>
-    </aside>
-
-    
-    <blockquote><a href="#Top">Go to top</a></blockquote>  <!--M1L013: Target location id demonstrated here-->
-    
-                                        
+    <figure>     <!--M4LO1 Demonstrate the use of figure boxes-->
+        <img src="studio.png" width="350" alt="studio pic" />
+        <figcaption>
+            This is an example of a home studio
+        </figcaption>
+    </figure>
+        
+    <blockquote id="Go2"><a href="#Top">Go to top</a></blockquote>  
+                     
 
     <footer>
-        Music Production 101 &#8226; 2021     <!--M1L010: Special character bullet demonstrated here-->
+        Music Production 101 &#8226; 2021     
     </footer>                             
 
 </body>
