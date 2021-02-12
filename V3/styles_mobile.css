@@ -78,7 +78,8 @@ blockquote {
     float:left;
     padding-top:20px;
     padding-bottom:20px;
-    position:fixed;    /*M3LO9 Demonstrate fixed, static, or inherited positioning*/
+    position:fixed; 
+    font-size:80px;   /*M3LO9 Demonstrate fixed, static, or inherited positioning*/
 }
 
 #Right {
