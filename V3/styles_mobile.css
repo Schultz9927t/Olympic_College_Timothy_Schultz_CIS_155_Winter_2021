@@ -1,0 +1,182 @@
+@charset "utf-8";
+
+/*  Name: Timothy Schultz
+    Date: 1/22/2021
+*/
+
+h1 {
+    font-size: 35px;
+    padding-left:50px;
+    width: 400px;
+}
+
+h3 {
+    padding-left:50px;
+    text-decoration:underline;
+    text-align:center;
+}
+
+body {
+    background-color: hsl(0, 0%, 31%, 0.5);
+    background-image: url(background2.png);     /*M4LO2 Demonstrate the use of background images*/
+    background-size:cover;      
+    color:hsl(0, 0%, 100%); 
+    width:50%;
+       
+}
+
+p {
+    font-size: 20px;            
+    padding-left:50px;
+}
+
+aside {
+    font-size: 30px;   
+    color:hsl(0, 0%, 100%);
+    padding-left:50px;
+}
+
+article {
+    font-size:20px;
+}
+
+#Welcome {
+    text-align:center;
+    width:100%;
+    font-size:40px;
+    padding-top:50px;
+    padding-bottom:5px; 
+}         
+
+a:hover {
+    color:rgb(0, 0, 0);
+}                 
+
+footer {
+    font-size:17px;
+    padding-left:50px;
+    padding-top:30px;
+}
+
+ol {
+    font-size:20px;
+    padding-left:75px;
+}
+
+blockquote {
+    padding-left:10px;
+    position:absolute;     /*M3LO8A Demonstrate absolute positioning*/
+    text-align:center;
+}
+#versions {
+    list-style-type:disc;
+    padding:40px;
+    text-align:center;
+}
+
+#Left {
+    float:left;
+    padding-top:20px;
+    padding-bottom:20px;
+    position:fixed;    /*M3LO9 Demonstrate fixed, static, or inherited positioning*/
+}
+
+#Right {
+    float:right;    /*M3LO2 Demonstrate floating elements*/
+    font-size:27px;
+    padding-right:50px;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin:5px;
+    display:block;
+    text-decoration:none;
+}
+
+#nav li {
+    list-style-type:none;
+    display:inline;
+    margin-left:30px;
+    margin-right:30px;
+    text-decoration:none;
+    color:white;
+    border:black;
+    border-style:solid;
+    border-radius:15px;     /*M4LO3 Demonstrate the use of rounded corners for borders*/
+    -webkit-border-radius:15px;     /*M3LO11 Demonstrate -prefix- style browser extensions use in CSS*/
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    background: linear-gradient(rgb(8, 179, 170), rgb(20, 118, 184));    /*M4LO4 Demonstrate the use of gradients*/
+    text-shadow: 1px 1px black;     /*M4LO5 Demonstrate the use of text or box shadowing*/
+
+}
+
+nav a {
+    color:white;
+    text-decoration:none;
+}
+
+nav a:hover {
+    color:rgb(27, 113, 225)
+}
+
+article#Description {
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center;
+    clear:both;    /*M3LO3 Demonstrate a clearing floats*/
+}
+
+#Intro {
+    padding-top:50px;
+    padding-bottom:50px;
+    text-align:center;
+    font-size:25px;
+    position:relative;    /*M3LO8B Demonstrate relative positioning*/
+}
+
+#Go2 {
+    text-align:center;
+}
+
+footer {
+    text-align:center;
+    padding:30px;
+}
+
+img {
+    opacity:0.9;     /*M4LO6 Demonstrate the use of opacity/transparency for images*/
+    
+}
+
+figure {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:15%;
+    padding:40px;
+}
+
+figure img {
+    transform: scaleX(-1);   /*M4LO8 Demonstrate the use of transformations for 2D or 3D images*/
+}
+
+figcaption {
+    text-align:center;
+}
+
+p.main {
+    overflow:auto;    /*M3LO10 Demonstrate an overflow setting*/
+    height:300px;
+    width:600px;
+    padding-left:600px;
+}
+
+aside {
+    text-align:center;
+}
+
+a {
+    color:blue;
+}
