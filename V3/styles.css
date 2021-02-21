@@ -482,6 +482,10 @@ a#Go2 {
     color:black;
 }      
 
+a#Go2:hover {
+    color:rgb(131, 131, 131)
+}
+
 a:hover {
     color:rgb(184, 184, 184);
 }                 
