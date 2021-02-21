@@ -35,7 +35,7 @@ body {
     div.Header h1 {
         float:left;
         font-family:Verdana; 
-        font-weight:15;
+        font-weight:100;
         font-size:16px; 
         color:white;
         background-color:green;
@@ -47,7 +47,7 @@ body {
     div.Header nav {
         float:right;   
         font-size:16px;
-        font-weight:50;
+        font-weight:100;
         font-family:Verdana;
         text-decoration:none;
         margin-left:auto;
@@ -286,7 +286,7 @@ div.Header {
 }
 
 div.Header h1 {
-    font-weight:15;
+    font-weight:100;
     font-size:23px; 
     width:16%;
     margin-left:1%;
@@ -295,7 +295,7 @@ div.Header h1 {
 nav.horizontal {
     width:50%;
     font-size:16px;
-    font-weight:50;
+    font-weight:100;
     margin-left:23%;
 }
 
