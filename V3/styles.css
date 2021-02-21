@@ -493,24 +493,27 @@ ol {
 }
 
 #versions {
-    list-style-type:disc;
     margin:40px;
     margin-left:auto;
     margin-right:auto;
+    width:60%;
+    list-style-type:none;
 }
 
 #versions2 {
-    list-style-type:disc;
+    list-style-type:none;
     margin:40px;
     margin-left:auto;
     margin-right:auto;
+    width:60%;
 }
 
 #versions3 {
-    list-style-type:disc;
+    list-style-type:none;
     margin:40px;
     margin-left:auto;
     margin-right:auto;
+    width:60%;
 }
 
 article#Description {
@@ -540,6 +543,14 @@ div.Changes h3 {
     text-decoration:underline;
 }
 
+div.Changes h2 {
+    font-size:25px;
+}
+
+aside.name {
+    margin-bottom:2%;
+}
+
 h1.About {
     margin-top:20px;
 }
@@ -550,9 +561,19 @@ h1.About {
     border: 5px solid black;
 }
 
+#versions2 li {
+    margin-top:2%;
+    margin-bottom:2%;
+    border: 5px solid black;
+}
+#versions3 li {
+    margin-top:2%;
+    margin-bottom:2%;
+    border: 5px solid black;
+}
+
 #versions {
-    width:60%;
-    list-style-type:none;
+    
 }
 
 aside.citation {
