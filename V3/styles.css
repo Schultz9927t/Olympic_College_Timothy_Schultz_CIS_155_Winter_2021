@@ -499,6 +499,20 @@ ol {
     margin-right:auto;
 }
 
+#versions2 {
+    list-style-type:disc;
+    margin:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#versions3 {
+    list-style-type:disc;
+    margin:40px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 article#Description {
     margin-top:50px;
     margin-bottom:50px;
