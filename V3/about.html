@@ -11,23 +11,36 @@
         <meta name="description" content="Music Production for Beginners">
         <meta name="keywords" content="music, production, beginners">
         <meta name="author" content="Timothy Schultz">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="styles.css">
-               
+        <link rel="stylesheet" href="reset.css" >  
+        <link rel="stylesheet" href="styles.css" media="screen">  
+        <link rel="stylesheet" href="styles_mobile.css" media="handheld"> 
     </head>
             
         <body>
-            <h1 id="Left">Music Production &#8226; <small>101</small></h1>   
-            
-         <nav id="Right">  
-            <ul id="nav">
-                <li><a href="index.html">Home</a></li>   
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
+            <a name="top"></a>
+
+            <div class="Header">
+                <img class="speakers" src="speakers.png" alt="Speakers"/>
+                <h1>Music Production 101</h1>  
+                    <nav class="horizontal"> 
+                        <a class="navicon" href="#"><img src="navicon.png" alt="" /></a>
+                            <ul class="mainmenu">
+                                <li><a href="index.html">Home</a></li>   
+                                <li><a href="about.html" class="submenuTitle">About</a>
+                                    <ul class="submenu">
+                                        <li><a href="about.html#mystory">My Story</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="">Hardware</a></li>   
+                                <li><a href="">Software</a></li>
+                                <li><a href="">Techniques</a></li>
+                            </ul>
+                    </nav>
+           </div>
+
+            <h1 class="About">About</h1>
 
         <article id="Description">
-            <h2>Creativity has no limits!</h2>
                 <p class="main">   
                     There is so much you can do with music. Music is a very <br> 
                     beautiful form of expression. It tunes in to our emotions<br> 
@@ -35,72 +48,102 @@
                     music is a story that you can tell. A canvas of sound.<br> 
                     The first step to getting there is first knowing how to<br>  
                     make music happen. This site will help you get there.<br> 
-                    There is so much you can do with music. Music is a very <br> 
-                    beautiful form of expression. It tunes in to our emotions<br> 
-                    and allows us to show how we feel. Paired with lyrics,<br> 
-                    music is a story that you can tell. A canvas of sound.<br> 
-                    The first step to getting there is first knowing how to<br>  
-                    make music happen. This site will help you get there.<br>
-                    There is so much you can do with music. Music is a very <br> 
-                    beautiful form of expression. It tunes in to our emotions<br> 
-                    and allows us to show how we feel. Paired with lyrics,<br> 
-                    music is a story that you can tell. A canvas of sound.<br> 
-                    The first step to getting there is first knowing how to<br>  
-                    make music happen. This site will help you get there.<br> 
-                    There is so much you can do with music. Music is a very <br> 
-                    beautiful form of expression. It tunes in to our emotions<br> 
-                    and allows us to show how we feel. Paired with lyrics,<br> 
-                    music is a story that you can tell. A canvas of sound.<br> 
-                    The first step to getting there is first knowing how to<br>  
-                    make music happen. This site will help you get there.<br> There is so much you can do with music. Music is a very <br> 
-                    beautiful form of expression. It tunes in to our emotions<br> 
-                    and allows us to show how we feel. Paired with lyrics,<br> 
-                    music is a story that you can tell. A canvas of sound.<br> 
-                    The first step to getting there is first knowing how to<br>  
-                    make music happen. This site will help you get there.<br> 
-                    There is so much you can do with music. Music is a very <br> 
-                    beautiful form of expression. It tunes in to our emotions<br> 
-                    and allows us to show how we feel. Paired with lyrics,<br> 
-                    music is a story that you can tell. A canvas of sound.<br> 
-                    The first step to getting there is first knowing how to<br>  
-                    make music happen. This site will help you get there.<br> There is so much you can do with music. Music is a very <br> 
-                    beautiful form of expression. It tunes in to our emotions<br> 
-                    and allows us to show how we feel. Paired with lyrics,<br> 
-                    music is a story that you can tell. A canvas of sound.<br> 
-                    The first step to getting there is first knowing how to<br>  
-                    make music happen. This site will help you get there.<br> 
-                    There is so much you can do with music. Music is a very <br> 
-                    beautiful form of expression. It tunes in to our emotions<br> 
-                    and allows us to show how we feel. Paired with lyrics,<br> 
-                    music is a story that you can tell. A canvas of sound.<br> 
-                    The first step to getting there is first knowing how to<br>  
-                    make music happen. This site will help you get there.<br>  
                 </p>
         </article>
-    
 
-            <h3>
-                History of Changes
-            </h3>
 
-            <aside>
+        <article class="Mystory">
+                <a id="mystory"></a>
+            My Story
+
+        </article>
+
+        <img class="mystory" src="mystory.png" alt="Mystory">
+
+    <div class="Changes">
+        <h3>
+            History of Changes
+        </h3>
+
+        <aside>
                 Name: Timothy Schultz<br>
                 Course: CIS 155
-            </aside>
+        </aside>
 
-            <ul id="versions">
-                <li>1/23/2021: V1 of site. Banner image added, home page statement and supporting text added, nav links added<br>
-                    background color added, text color added, link hover added, link color added, left padding added, bullets<br>
-                    added, various fonts added, external link added, footer added, ordered list added, link to top of page added<br>
-                    basic site structure established.
+        <ul id="versions">
+            <h2>Version 1</h2>
+            <li>1/23/2021: V1 of site. Banner image added, home page statement and supporting text added, nav links added<br>
+                background color added, text color added, link hover added, link color added, left padding added, bullets<br>
+                added, various fonts added, external link added, footer added, ordered list added, link to top of page added<br>
+                basic site structure established.
+            </li>
+            <h2>Version 2</h2>
+            <li>2/06/2021: V2 of site. Banner image resized. Floated nav menu to the right of the Heading. Background image added.<br>
+                Borders and ggradients added to create Nav buttons. Image with caption added. Transparency added to banner image.<br>
+                overflow section added in about page for scrolling text. Made the header position fixed.
+            </li>
+            <h2>Version 3</h2>
+            <li>2/20/2021: V3 of site. Flexbox header added. Header image added. Three more pages added. Header and background<br>
+                colors changed. Banner image changed. Added an additional banner image. Table added to the about page. Image added<br>
+                to the about page. Dropdown menu added. Button links added in the body. Added link to a specific section of the about page.
+            </li>
+        </ul>
+    </div>
 
-                </li>
-            </ul>
+    <aside class="citation">Images derived from google images and Pixabay.com</aside>
 
-            <footer>
-                Music Production 101 &#8226; 2021
-            </footer>
+            <table class="greetings">     <!--M6LO3 Demonstrate how to create a table-->
+                <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>5:00PM</th>
+                    <td>Eat</td>
+                    <td>Sleep</td>
+                    <td>Make Music</td>
+                    <td>Eat</td>
+                    <td>Sleep</td>
+                    <td>Make</td>
+                    <td>Music</td>
+                    
+                </tr>
+                <tr>
+                    <th>8:00PM</th>
+                    <td>Eat</td>
+                    <td>Sleep</td>
+                    <td>Make Music</td>
+                    <td>Eat</td>
+                    <td>Sleep</td>
+                    <td>Make</td>
+                    <td>Music</td>
+                    
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="8">MAKE MUSIC EVERY DAY</td>    <!--M6LO4 Demonstrate how to span multiple rows or multiple columns in a table -->
+                </tr>
+
+            </tfoot>
+            </table>
+
+        <a id="Go2" href="#top">Go to top</a>  
+                     
+
+    <footer>
+        Music Production 101 &#8226; 2021     
+    </footer>  
+        
         </body>
 
-        
     </html>
