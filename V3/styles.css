@@ -418,6 +418,10 @@ div.banner {
     justify-content: flex-start;
 }
 
+div.banner a {
+    color:white;
+}
+
 img.banner1, img.banner2 {
     width:50%;
     margin-top:120px;
