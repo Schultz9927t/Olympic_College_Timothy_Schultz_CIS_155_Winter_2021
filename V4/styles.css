@@ -571,7 +571,7 @@ a#Go2:hover {
 
 nav a {
     padding:5px;
-    transition:background 1s;            /*M8LO10 Demonstrate a CSS animation or transition*/
+    transition: 1s;            /*M8LO10 Demonstrate a CSS animation or transition*/
 }
 
 nav a:hover {
