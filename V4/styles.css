@@ -23,7 +23,7 @@ audio {
 
 }
 
-fieldset.form {
+fieldset.form {                         /* M7LO11 Demonstrate how to format a form with CSS*/
     display:flex;
     justify-content:flex-start;
     flex-wrap: wrap;
@@ -571,7 +571,7 @@ a#Go2:hover {
 
 nav a {
     padding:5px;
-    transition: background 1s;
+    transition: background 1s;            /*M8LO10 Demonstrate a CSS animation or transition*/
 }
 
 nav a:hover {
@@ -745,7 +745,7 @@ h2.v {
     margin-bottom:20px;
 }
 
-audio {
+audio {                             /*M8LO12 Demonstrate how to format media with CSS*/
     margin-bottom:250px;
 }
 
